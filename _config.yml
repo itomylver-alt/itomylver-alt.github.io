@@ -11,3 +11,8 @@ permalink: /:categories/:title/
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+
+sass:
+  style: compressed
+
