@@ -1,4 +1,13 @@
-Title : 渗透测试学习笔记
+title: "Tomylver Pentest Blog"
+description: "Web / 内网 / 漏洞复现 / 工具记录"
+url: "https://itomylver-alt.github.io"
+baseurl: ""
 
+theme: minima
+markdown: kramdown
 
+permalink: /:categories/:title/
 
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
