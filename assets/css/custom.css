@@ -1,3 +1,8 @@
+body {
+  background: red !important;
+}
+
+
 /* ===== 基础 ===== */
 body {
   margin: 0;
