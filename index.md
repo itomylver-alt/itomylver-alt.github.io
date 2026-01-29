@@ -14,8 +14,8 @@ title: Home
 ### 📂 分类
 - [Web](/web/index.md)
 - [内网](/internal/index.md)
-- [漏洞](/vuln/)
-- [工具](/tools/)
-- [文章](/_posts/)
+- [漏洞](/vuln/index.md)
+- [工具](/tools/index.md)
+- [其他](/_posts/)
 
 
