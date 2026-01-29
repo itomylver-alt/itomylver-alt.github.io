@@ -2,6 +2,7 @@
 title: "Nmap 内网扫描"
 date: 2026-01-29
 categories: [internal]
+layout: default
 tags: [Lateral-Movement]
 ---
 
