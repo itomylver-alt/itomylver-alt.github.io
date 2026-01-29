@@ -13,7 +13,7 @@ title: Home
 
 ### 📂 分类
 - [Web](/web/index.md)
-- [内网](/internal/)
+- [内网](/internal/index.md)
 - [漏洞](/vuln/)
 - [工具](/tools/)
 - [文章](/_posts/)
