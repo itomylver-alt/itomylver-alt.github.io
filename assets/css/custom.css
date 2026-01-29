@@ -1,54 +1,89 @@
-/* ===== 全局暗色 ===== */
+/* ===== 基础 ===== */
 body {
-  background-color: #0f1117;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #0f1117;
   color: #e6edf3;
 }
 
-/* 链接 */
 a {
   color: #58a6ff;
-}
-a:hover {
-  color: #79c0ff;
+  text-decoration: none;
 }
 
-/* 标题 */
-h1, h2, h3, h4 {
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== 布局 ===== */
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* 左侧导航 */
+.sidebar {
+  width: 240px;
+  background: #0d1117;
+  border-right: 1px solid #30363d;
+  padding: 20px;
+  position: fixed;
+  height: 100vh;
+}
+
+.site-title {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* 导航列表 */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 12px 0;
+}
+
+.sidebar a {
+  color: #c9d1d9;
+}
+
+/* 右侧正文 */
+.content {
+  margin-left: 240px;
+  padding: 40px;
+  max-width: 900px;
+}
+
+.content h1, h2, h3 {
   color: #f0f6fc;
 }
 
-/* 页面宽度（适合命令） */
-.wrapper {
-  max-width: 980px;
-}
-
-/* 代码块 */
-pre, code {
-  background-color: #161b22;
-  color: #e6edf3;
-  border-radius: 6px;
-}
-
+/* ===== 代码块 ===== */
 pre {
-  padding: 1em;
+  background: #161b22;
+  padding: 16px;
   overflow-x: auto;
+  border-radius: 8px;
 }
 
-/* 行内代码 */
 code {
+  background: #161b22;
   padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* 图片 */
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 16px 0;
+  box-shadow: 0 0 12px rgba(0,0,0,0.4);
 }
 
 /* 列表 */
 li {
   margin-bottom: 6px;
-}
-
-/* 表格 */
-table {
-  border-collapse: collapse;
-}
-th, td {
-  border: 1px solid #30363d;
-  padding: 6px 10px;
 }
