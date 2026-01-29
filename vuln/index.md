@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Vuln 漏洞
+layout: default
 permalink: /vuln/
 ---
 
