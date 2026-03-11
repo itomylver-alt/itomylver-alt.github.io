@@ -1,3 +1,12 @@
+---
+title: "搭建WordPress Redis Mysql Nginx Docker 架构"
+date: 2026-01-01
+categories: [linux2]
+layout: default
+tags: [Docker,WordPress,Redis,Nginx]
+---
+
+
 搭建WordPress Redis Mysql Nginx 架构
 
 涉及的技术：Docker ,Docker Compose ,Nginx, Mybatis ,Redis ,Mysql
