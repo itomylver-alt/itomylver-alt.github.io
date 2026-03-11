@@ -16,6 +16,6 @@ title: Home
 - [内网](/internal/index.md)
 - [漏洞](/vuln/index.md)
 - [工具](/tools/index.md)
-- [其他](/_posts/)
+- [其他](/linux/index.md)
 
 
