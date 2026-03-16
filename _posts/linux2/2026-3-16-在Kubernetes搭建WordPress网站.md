@@ -1,4 +1,10 @@
-
+---
+title: "搭建Kubernetes Wordpress MySQL "
+date: 2026-03-16
+categories: [linux2]
+layout: default
+tags: [Docker,WordPress,Kubernetes,Nginx]
+---
 ## 架构
 浏览器 --> Ingress --> WordPress Service --> WordPress Pod --> MySQL Service --> MySQL Pod --> PersistentVolume(数据存储)
 
